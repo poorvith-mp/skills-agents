@@ -1,7 +1,16 @@
 should_fire:
-  - "help with prompt library"
-  - "maintain reusable prompt libraries"
-  - "run prompt-library workflow"
+  - 'organize our company''s internal prompt collection into searchable functional categories'
+  - 'curate a reusable library of high-performing marketing and copywriting prompts'
+  - 'standardize variable placeholder syntax across our team''s prompt templates'
+  - 'build a repository of vetted system prompts for different coding tasks'
+  - 'catalog prompts by target model (Claude, GPT-4, Llama) and capability tags'
+  - 'establish governance rules for testing and approving prompts before adding to the library'
+  - 'maintain version control and changelogs for our production prompt repository'
+  - 'create a prompt playbook for customer support reps with pre-tested prompts'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'optimize an individual prompt to fix formatting errors or hallucinations'
+    expect: 'prompt-engineering'
+  - prompt: 'build automated evaluation harnesses for prompt quality scoring'
+    expect: 'llm-evals'
+  - prompt: 'create portable Agent Skill packages with routing evals'
+    expect: 'create-skill'

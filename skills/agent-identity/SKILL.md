@@ -1,7 +1,9 @@
 ---
 name: agent-identity
+group: Agent design
 description: >-
-  Design authentication, delegation and trust verification between agents, and resolve "who is this" consistently across sources.
+  Design authentication, delegation, and trust verification across agents and identity sources.
+  Use when establishing agent identity, auth, or provenance.
 ---
 # Agent Identity
 

@@ -1,7 +1,9 @@
 ---
 name: rag-systems
+group: Retrieval
 description: >-
-  Build retrieval that works: chunking strategy, embeddings, hybrid search, reranking and retrieval evals.
+  Build retrieval that works: chunking strategy, embeddings, hybrid search, reranking and
+  retrieval evals. Use when building RAG pipelines, chunking, embeddings, or vector search.
 ---
 # Rag Systems
 

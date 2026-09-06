@@ -1,7 +1,9 @@
 ---
 name: skill-linter
+group: Prompts and skills
 description: >-
-  Check a skill against house rules: description length, slug length, pointer scope and allowed frontmatter keys.
+  Check a skill against house rules: description length, slug length, pointer scope and allowed
+  frontmatter keys. Use when validating agent skills for length, triggers, evals, or spec rules.
 ---
 # Skill Linter
 

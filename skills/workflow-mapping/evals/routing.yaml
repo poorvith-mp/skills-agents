@@ -1,7 +1,16 @@
 should_fire:
-  - "help with workflow mapping"
-  - "map a complete workflow tree"
-  - "run workflow-mapping workflow"
+  - 'map our manual customer refund process into a step-by-step automated workflow'
+  - 'identify decision gates, approval thresholds, and fallback paths for a workflow'
+  - 'document edge cases and exception handling for an automated invoicing sequence'
+  - 'create a visual flowchart of our lead qualification and distribution pipeline'
+  - 'determine which steps in this 10-step process require human approval vs full automation'
+  - 'structure the data schema passed between steps in a multi-stage automation'
+  - 'map trigger events, conditions, and actions before building an automation'
+  - 'break down a complex business process into discrete, automatable functional units'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'assess financial ROI and maintenance costs before automating a workflow'
+    expect: 'automation-review'
+  - prompt: 'implement the workflow directly inside n8n with visual nodes'
+    expect: 'n8n'
+  - prompt: 'write code-first background workflows in Trigger.dev'
+    expect: 'trigger-dev'

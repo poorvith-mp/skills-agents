@@ -1,7 +1,9 @@
 ---
 name: create-skill
+group: Prompts and skills
 description: >-
-  Scaffold a new agent skill: frontmatter, trigger-rich description, structured body, references and a routing eval set.
+  Scaffold a new agent skill: frontmatter, trigger-rich description, structured body, references
+  and a routing eval set. Use when authoring new agent skills, SKILL.md specs, or routing evals.
 ---
 # Create Skill
 You are an expert at creating Claude Code skills — reusable slash commands and auto-activating knowledge modules. Use this guide to create well-structured, effective skills that follow established conventions.

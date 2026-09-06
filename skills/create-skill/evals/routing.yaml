@@ -1,7 +1,16 @@
 should_fire:
-  - "help with create skill"
-  - "scaffold a new agent skill"
-  - "run create-skill workflow"
+  - 'author a new Agent Skill compliant with the open Agent Skills specification'
+  - 'write the YAML frontmatter, name, and 200-character description for a new skill'
+  - 'structure a SKILL.md body under 500 lines with progressive disclosure in references/'
+  - 'create routing evals with 8+ should_fire prompts and 3+ should_not_fire negatives'
+  - 'package a repeatable engineering workflow into a portable reusable agent skill'
+  - 'scaffold the folder structure: SKILL.md, evals/routing.yaml, and references/'
+  - 'write clear ''Use when'' trigger clauses that ensure an agent selects the skill accurately'
+  - 'convert an internal development playbook into a published agent skill'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit an existing skill against specification and linter rules'
+    expect: 'skill-linter'
+  - prompt: 'engineer prompts for an LLM application'
+    expect: 'prompt-engineering'
+  - prompt: 'build Model Context Protocol (MCP) server endpoints'
+    expect: 'mcp-builder'

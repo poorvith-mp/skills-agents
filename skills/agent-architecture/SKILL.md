@@ -1,7 +1,9 @@
 ---
 name: agent-architecture
+group: Agent design
 description: >-
   Design role decomposition, message passing, shared state and failure isolation across agents.
+  Use when designing autonomous agent state machines, memory, or loops.
 ---
 # Agent Architecture
 

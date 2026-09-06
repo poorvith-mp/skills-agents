@@ -1,7 +1,16 @@
 should_fire:
-  - "help with document generation"
-  - "generate pdf, pptx, docx and xlsx from code with real formatting, charts and tables."
-  - "run document-generation workflow"
+  - 'generate professional PDF invoices from JSON data using Puppeteer or Typst'
+  - 'build an automated document generation pipeline for customer contracts in DOCX format'
+  - 'populate structured Markdown templates with dynamic database records'
+  - 'design beautiful print-ready PDF certificate templates with CSS paged media'
+  - 'automate the generation of customized client proposals from CRM data'
+  - 'convert structured markdown documents into polished PDF reports with cover pages'
+  - 'handle page breaks, headers, and footers cleanly in automated PDF exports'
+  - 'generate branded customer receipts and export them directly to cloud storage'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build automated data aggregation pipelines and executive reports'
+    expect: 'report-automation'
+  - prompt: 'write technical documentation and software developer guides'
+    expect: 'technical-docs'
+  - prompt: 'design visual print packaging and physical product boxes'
+    expect: 'print-packaging'

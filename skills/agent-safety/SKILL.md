@@ -1,7 +1,9 @@
 ---
 name: agent-safety
+group: Agent design
 description: >-
-  Defend against prompt injection, scope tool permissions, filter outputs, and fail closed when a check can't run.
+  Defend against prompt injection, scope tool permissions, filter outputs, and fail closed when a
+  check can't run. Use when implementing agent guardrails, sandboxing, or injection defense.
 ---
 # Agent Safety
 

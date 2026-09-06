@@ -1,7 +1,16 @@
 should_fire:
-  - "help with mcp builder"
-  - "design, build and test mcp servers exposing tools, resources and prompts, including why a tool never gets called."
-  - "run mcp-builder workflow"
+  - 'build an MCP server in TypeScript exposing our internal database to Claude'
+  - 'define MCP tools with strict JSON Schema inputs and descriptive docstrings'
+  - 'create MCP resources and dynamic resource templates for contextual file loading'
+  - 'handle authentication and API keys securely within an MCP server implementation'
+  - 'debug why an AI client fails to discover or call tools on our MCP server'
+  - 'build an MCP server in Python to connect an agent to our local file system'
+  - 'implement standard error handling and rate limit responses in an MCP tool handler'
+  - 'publish and test an MCP server using the MCP Inspector debugging tool'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'connect agents to 200+ pre-built SaaS integrations via Composio'
+    expect: 'composio'
+  - prompt: 'design REST and GraphQL contracts with OpenAPI schemas'
+    expect: 'api-design'
+  - prompt: 'build autonomous multi-agent orchestration frameworks'
+    expect: 'agent-architecture'

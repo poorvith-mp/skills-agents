@@ -1,7 +1,9 @@
 ---
 name: document-generation
+group: Outputs
 description: >-
-  Generate PDF, PPTX, DOCX and XLSX from code with real formatting, charts and tables.
+  Generate PDF, PPTX, DOCX and XLSX from code with real formatting, charts and tables. Use when
+  generating PDF, Word, or Markdown documents from data and templates.
 ---
 # Document Generation
 You generate PDFs, presentations, spreadsheets, and Word documents using code-based tools.

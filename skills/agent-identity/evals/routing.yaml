@@ -1,7 +1,16 @@
 should_fire:
-  - "help with agent identity"
-  - "design authentication, delegation and trust verification between agents, and resolve "who is this" consistently across sources."
-  - "run agent-identity workflow"
+  - 'design cryptographic authentication and identity verification for autonomous agents'
+  - 'how should an agent prove its identity when calling third-party APIs on behalf of a user'
+  - 'implement delegation tokens that grant an agent scoped, time-limited permissions'
+  - 'resolve ''who is this agent'' consistently across distributed multi-agent systems'
+  - 'establish verifiable provenance and audit trails for decisions made by AI agents'
+  - 'prevent agent impersonation and credential theft in decentralized agent networks'
+  - 'design mutual TLS and signed request mechanisms between autonomous micro-agents'
+  - 'manage agent key pairs, rotation, and cryptographic signature verification'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'implement standard human user authentication with OAuth2 and JWTs'
+    expect: 'authentication'
+  - prompt: 'build safety guardrails and output filters for AI responses'
+    expect: 'agent-safety'
+  - prompt: 'craft master persona voice and style guidelines for a person'
+    expect: 'voice-profile'

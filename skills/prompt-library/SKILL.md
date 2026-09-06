@@ -1,7 +1,9 @@
 ---
 name: prompt-library
+group: Prompts and skills
 description: >-
-  Maintain reusable prompt libraries: versioning, tagging, benchmarking and deduplication across teams.
+  Maintain reusable prompt libraries: versioning, tagging, benchmarking and deduplication across
+  teams. Use when curating, organizing, or categorizing reusable prompt collections.
 ---
 # Prompt Library
 

@@ -1,7 +1,10 @@
 ---
 name: automation-review
+group: Workflow automation
 description: >-
-  Audit a proposed or existing automation for value, risk and maintenance cost, including the answer "don't build this."
+  Audit a proposed or existing automation for value, risk and maintenance cost, including the
+  answer "don't build this.". Use when auditing automation ROI, failure points, or recommending
+  'don't build'.
 ---
 # Automation Review
 

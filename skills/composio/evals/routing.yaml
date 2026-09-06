@@ -1,7 +1,16 @@
 should_fire:
-  - "help with composio"
-  - "wire agents to authenticated third-party saas tools through composio connectors."
-  - "run composio workflow"
+  - 'connect our AI agent to GitHub and Slack using Composio''s pre-built actions'
+  - 'manage user OAuth authentication across 200+ SaaS apps using Composio tooling'
+  - 'trigger an agent action when a new email arrives in Gmail via Composio webhooks'
+  - 'integrate Composio toolkits with LangChain, CrewAI, or OpenAI Assistants'
+  - 'automate Jira ticket creation and calendar scheduling through Composio tools'
+  - 'handle multi-tenant app authorization so agents act on behalf of specific users'
+  - 'execute verified actions on Notion, Trello, and HubSpot using Composio integrations'
+  - 'troubleshoot token expiration and authorization scopes in Composio connections'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build custom custom MCP servers from scratch in TypeScript'
+    expect: 'mcp-builder'
+  - prompt: 'build visual drag-and-drop workflow automations in n8n'
+    expect: 'n8n'
+  - prompt: 'write background queue workers and job processors in Node.js'
+    expect: 'backend-build'

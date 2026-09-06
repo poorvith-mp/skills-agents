@@ -1,7 +1,16 @@
 should_fire:
-  - "help with agent safety"
-  - "defend against prompt injection, scope tool permissions, filter outputs, and fail closed when a check can't run."
-  - "run agent-safety workflow"
+  - 'implement guardrails to protect our autonomous agent from prompt injection attacks'
+  - 'sandbox an agent''s code execution environment to prevent unauthorized system access'
+  - 'design human-in-the-loop approval gates before an agent executes high-risk actions'
+  - 'prevent indirect prompt injection when an agent parses untrusted web pages or emails'
+  - 'implement rate limits, tool budget caps, and recursion depth limits on agents'
+  - 'audit agent system prompts for jailbreak vulnerabilities and role escape flaws'
+  - 'enforce strict output validation and PII redaction on all agent-generated text'
+  - 'create an emergency kill-switch to terminate rogue or runaway autonomous agents'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit web application source code for traditional OWASP vulnerabilities'
+    expect: 'security-review'
+  - prompt: 'test prompt variants using automated evaluation benchmarks and rubrics'
+    expect: 'llm-evals'
+  - prompt: 'architect multi-agent supervisor and delegation patterns'
+    expect: 'agent-orchestration'

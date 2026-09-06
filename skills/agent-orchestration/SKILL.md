@@ -1,7 +1,9 @@
 ---
 name: agent-orchestration
+group: Agent design
 description: >-
-  Sequence agents through an end-to-end pipeline, passing state between them, with pre-flight environment checks.
+  Sequence agents through an end-to-end pipeline, passing state between them, with pre-flight
+  environment checks. Use when coordinating multi-agent systems, delegation, or subagent crews.
 ---
 # Agent Orchestration
 

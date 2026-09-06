@@ -1,7 +1,16 @@
 should_fire:
-  - "help with n8n"
-  - "build n8n workflows"
-  - "run n8n workflow"
+  - 'build an n8n workflow that triggers on a Stripe webhook and creates an invoice in QuickBooks'
+  - 'configure n8n nodes to parse incoming emails, extract attachments, and upload to Google Drive'
+  - 'handle error triggers and retry execution logic in an n8n workflow'
+  - 'transform and map JSON data structures using n8n expressions and Code nodes'
+  - 'deploy and manage a self-hosted n8n instance on Docker with PostgreSQL'
+  - 'connect n8n workflows to OpenAI or Claude API nodes for automated classification'
+  - 'troubleshoot a failing execution in an n8n automated sequence'
+  - 'build a multi-branch conditional workflow in n8n based on incoming payload attributes'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build code-first durable background jobs in Trigger.dev'
+    expect: 'trigger-dev'
+  - prompt: 'map out business logic and decision trees on paper before building'
+    expect: 'workflow-mapping'
+  - prompt: 'build a custom Model Context Protocol (MCP) server'
+    expect: 'mcp-builder'

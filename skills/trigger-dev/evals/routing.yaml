@@ -1,7 +1,16 @@
 should_fire:
-  - "help with trigger dev"
-  - "build trigger.dev background jobs"
-  - "run trigger-dev workflow"
+  - 'write a durable background task using Trigger.dev v3 with auto-retries and timeouts'
+  - 'implement a long-running video processing job in TypeScript with Trigger.dev'
+  - 'orchestrate multi-step code-first workflows with checkpointing and state resumption'
+  - 'handle rate-limited third-party API calls using Trigger.dev concurrency limits'
+  - 'stream real-time task execution logs and status updates from Trigger.dev to our frontend'
+  - 'migrate fragile serverless cron functions to reliable Trigger.dev scheduled tasks'
+  - 'deploy and manage Trigger.dev tasks alongside our Next.js application codebase'
+  - 'handle graceful task cancellation and rollback in a durable code-first workflow'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build visual drag-and-drop no-code automations in n8n'
+    expect: 'n8n'
+  - prompt: 'configure traditional Linux crontab jobs or basic task schedulers'
+    expect: 'job-scheduling'
+  - prompt: 'build backend API routes and database models'
+    expect: 'backend-build'

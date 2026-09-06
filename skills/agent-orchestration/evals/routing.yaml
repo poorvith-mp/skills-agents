@@ -1,7 +1,16 @@
 should_fire:
-  - "help with agent orchestration"
-  - "sequence agents through an end-to-end pipeline, passing state between them, with pre-flight environment checks."
-  - "run agent-orchestration workflow"
+  - 'orchestrate a team of 4 specialized sub-agents to research, write, and verify code'
+  - 'design a hierarchical multi-agent pattern with a parent dispatcher and worker agents'
+  - 'how should subagents communicate and pass intermediate context to each other'
+  - 'implement consensus voting and critique mechanisms between competing agents'
+  - 'manage task delegation, dependencies, and parallel execution across agent workers'
+  - 'prevent deadlock when multiple agents depend on each other''s outputs'
+  - 'design an agent supervisor that monitors child agent progress and enforces deadlines'
+  - 'route user requests dynamically to the best specialized agent based on capabilities'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design the internal loop, memory, and state machine of a single agent'
+    expect: 'agent-architecture'
+  - prompt: 'build workflow automations with nodes and triggers in n8n'
+    expect: 'n8n'
+  - prompt: 'build automated CI/CD pipelines in GitHub Actions'
+    expect: 'ci-pipelines'

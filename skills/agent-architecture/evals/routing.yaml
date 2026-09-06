@@ -1,7 +1,16 @@
 should_fire:
-  - "help with agent architecture"
-  - "design role decomposition, message passing, shared state and failure isolation across agents."
-  - "run agent-architecture workflow"
+  - 'design an autonomous AI agent architecture with planning, memory, and reflection'
+  - 'how should we manage agent state, conversation history, and context window limits'
+  - 'architect a ReAct agent loop that handles tool calling errors and retries gracefully'
+  - 'choose between stateful graph architectures (LangGraph) vs simple sequential agents'
+  - 'design short-term vs long-term semantic memory storage for an autonomous assistant'
+  - 'structure agent decision boundaries to prevent infinite reasoning loops'
+  - 'how should our agent maintain state across multiple disconnected user sessions'
+  - 'design an event-driven agent that reacts to webhook triggers and takes action'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'coordinate multiple specialized agents working together in a crew'
+    expect: 'agent-orchestration'
+  - prompt: 'build Model Context Protocol (MCP) servers for tool integration'
+    expect: 'mcp-builder'
+  - prompt: 'design guardrails to prevent agent prompt injection and rogue execution'
+    expect: 'agent-safety'

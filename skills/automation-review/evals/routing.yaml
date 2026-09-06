@@ -1,7 +1,16 @@
 should_fire:
-  - "help with automation review"
-  - "audit a proposed or existing automation for value, risk and maintenance cost, including the answer "don't build this.""
-  - "run automation-review workflow"
+  - 'evaluate whether automating this monthly task will actually save time or cost more to maintain'
+  - 'audit an existing automation for fragile failure points and unhandled edge cases'
+  - 'assess the total cost of ownership (TCO) and API costs for a proposed automation'
+  - 'is this complex workflow worth automating or should it remain a manual SOP'
+  - 'identify hidden maintenance overheads before investing engineering time in an automation'
+  - 'review a proposed automated pipeline for single points of failure and vendor lock-in'
+  - 'give me an honest assessment of whether this process is stable enough to automate'
+  - 'calculate the payback period in hours saved for building this custom script'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'map out the step-by-step decision flow and data schemas'
+    expect: 'workflow-mapping'
+  - prompt: 'build visual workflows using n8n nodes and triggers'
+    expect: 'n8n'
+  - prompt: 'redesign an entire organizational business process for efficiency'
+    expect: 'process-redesign'

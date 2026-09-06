@@ -1,7 +1,16 @@
 should_fire:
-  - "help with skill linter"
-  - "check a skill against house rules"
-  - "run skill-linter workflow"
+  - 'lint this SKILL.md file for character limits, frontmatter syntax, and structure'
+  - 'verify that the description is under 200 characters and has a ''Use when'' clause'
+  - 'check that evals/routing.yaml contains valid YAML and at least 8 positive prompts'
+  - 'audit a skill folder for unreferenced orphan markdown files in references/'
+  - 'ensure the skill name is under 30 characters and in clean kebab-case'
+  - 'verify that should_not_fire assertions reference active, resolvable skill slugs'
+  - 'check that the SKILL.md body opens with an H1 heading and stays under 500 lines'
+  - 'scan skills for disallowed boilerplate triggers and self-referential phrasings'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write and scaffold a new skill from scratch'
+    expect: 'create-skill'
+  - prompt: 'review code changes in a pull request for software bugs'
+    expect: 'code-review'
+  - prompt: 'test prompt output accuracy using LLM evaluation benchmarks'
+    expect: 'llm-evals'

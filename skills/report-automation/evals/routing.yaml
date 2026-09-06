@@ -1,7 +1,16 @@
 should_fire:
-  - "help with report automation"
-  - "merge multiple exports and unstructured sources into one consistent view, then schedule and distribute it."
-  - "run report-automation workflow"
+  - 'automate a weekly executive digest email pulling metrics from Postgres and Stripe'
+  - 'build an automated pipeline to generate monthly KPI performance reports'
+  - 'send scheduled Slack summaries of daily sales and active user counts'
+  - 'generate automated daily error rate and system health summary reports'
+  - 'aggregate data from multiple APIs into an automated weekly executive dashboard'
+  - 'format automated metrics summaries with trend percentages and highlight callouts'
+  - 'trigger automated anomaly alert reports when daily signups drop below threshold'
+  - 'schedule automated end-of-month financial reconciliation reports for accounting'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'render static PDF invoices and customer contracts from templates'
+    expect: 'document-generation'
+  - prompt: 'build internal operational KPI dashboards and review cadence'
+    expect: 'internal-reporting'
+  - prompt: 'build a monthly marketing channel performance report'
+    expect: 'marketing-report'

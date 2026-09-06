@@ -1,7 +1,16 @@
 should_fire:
-  - "help with rag systems"
-  - "build retrieval that works"
-  - "run rag-systems workflow"
+  - 'build a Retrieval-Augmented Generation (RAG) pipeline for our technical documentation'
+  - 'evaluate chunking strategies (fixed-size vs semantic vs recursive) for long PDFs'
+  - 'choose between dense vector embeddings vs hybrid search with BM25 full-text'
+  - 'implement reranking using Cohere or cross-encoders to improve retrieval precision'
+  - 'troubleshoot why our RAG system retrieves irrelevant context for user queries'
+  - 'manage vector database indexing and metadata filtering in Pinecone, Qdrant, or pgvector'
+  - 'implement contextual retrieval by prepending document summaries to chunks'
+  - 'handle table and diagram extraction from scanned PDFs before embedding into RAG'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'benchmark and evaluate RAG answer accuracy with LLM-as-a-judge'
+    expect: 'llm-evals'
+  - prompt: 'build general transactional database schemas and SQL indexes'
+    expect: 'database'
+  - prompt: 'build full ETL data ingestion pipelines into Snowflake'
+    expect: 'data-pipelines'

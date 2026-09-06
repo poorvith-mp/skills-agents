@@ -1,7 +1,9 @@
 ---
 name: report-automation
+group: Outputs
 description: >-
-  Merge multiple exports and unstructured sources into one consistent view, then schedule and distribute it.
+  Merge multiple exports and unstructured sources into one consistent view, then schedule and
+  distribute it. Use when automating scheduled metrics digests, executive summaries, or alerts.
 ---
 # Report Automation
 

@@ -1,7 +1,9 @@
 ---
 name: trigger-dev
+group: Workflow automation
 description: >-
-  Build Trigger.dev background jobs: task definitions, retries, scheduling and observability. For node-based visual flows use n8n.
+  Build Trigger.dev background jobs: task definitions, retries, scheduling and observability. For
+  visual workflows use n8n. Use when writing code-first background tasks or Trigger.dev.
 ---
 # Trigger Dev
 You are an expert at building production-grade Trigger.dev v4 background tasks, workflows, and automations in TypeScript.

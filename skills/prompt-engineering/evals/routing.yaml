@@ -1,7 +1,16 @@
 should_fire:
-  - "help with prompt engineering"
-  - "write, test and optimise prompts into reliable production behaviour."
-  - "run prompt-engineering workflow"
+  - 'optimize this system prompt to ensure the model always returns valid JSON'
+  - 'craft few-shot examples that guide the LLM through complex reasoning steps'
+  - 'reduce hallucinations and over-confidence when the model answers ambiguous questions'
+  - 'apply chain-of-thought prompting to improve accuracy on mathematical calculations'
+  - 'compress this 2,000-token system prompt down to 500 tokens without losing instructions'
+  - 'prevent the model from ignoring negative constraints and edge case rules'
+  - 'structure prompts with clear role, task, context, constraints, and output format'
+  - 'improve prompt instructions to eliminate robotic filler and generic conversational fluff'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build automated regression test suites to benchmark prompt versions'
+    expect: 'llm-evals'
+  - prompt: 'create a standardized Agent Skill folder conforming to the spec'
+    expect: 'create-skill'
+  - prompt: 'organize and catalog reusable prompts for team usage'
+    expect: 'prompt-library'

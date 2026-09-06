@@ -1,7 +1,9 @@
 ---
 name: n8n
+group: Workflow automation
 description: >-
-  Build n8n workflows: node wiring, credentials, error branches and scheduling. Not for code-first background jobs (use trigger-dev).
+  Build n8n workflows: node wiring, credentials, error branches and scheduling. Use when building
+  visual workflow automations, webhooks, or nodes in n8n.
 ---
 # N8n
 You are an expert at building production-grade n8n workflow automations, custom nodes, and integrations.
