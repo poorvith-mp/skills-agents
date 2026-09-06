@@ -1,0 +1,7 @@
+should_fire:
+  - "help with trigger dev"
+  - "build trigger.dev background jobs"
+  - "run trigger-dev workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

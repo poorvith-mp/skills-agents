@@ -1,0 +1,7 @@
+should_fire:
+  - "help with document generation"
+  - "generate pdf, pptx, docx and xlsx from code with real formatting, charts and tables."
+  - "run document-generation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

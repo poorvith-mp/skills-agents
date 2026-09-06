@@ -1,0 +1,7 @@
+should_fire:
+  - "help with report automation"
+  - "merge multiple exports and unstructured sources into one consistent view, then schedule and distribute it."
+  - "run report-automation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

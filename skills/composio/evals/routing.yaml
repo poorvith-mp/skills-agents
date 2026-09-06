@@ -1,0 +1,7 @@
+should_fire:
+  - "help with composio"
+  - "wire agents to authenticated third-party saas tools through composio connectors."
+  - "run composio workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

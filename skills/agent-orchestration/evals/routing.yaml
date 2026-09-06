@@ -1,0 +1,7 @@
+should_fire:
+  - "help with agent orchestration"
+  - "sequence agents through an end-to-end pipeline, passing state between them, with pre-flight environment checks."
+  - "run agent-orchestration workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

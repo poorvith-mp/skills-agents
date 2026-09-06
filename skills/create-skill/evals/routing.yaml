@@ -1,0 +1,7 @@
+should_fire:
+  - "help with create skill"
+  - "scaffold a new agent skill"
+  - "run create-skill workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

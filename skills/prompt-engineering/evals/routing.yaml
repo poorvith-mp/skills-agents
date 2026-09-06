@@ -1,0 +1,7 @@
+should_fire:
+  - "help with prompt engineering"
+  - "write, test and optimise prompts into reliable production behaviour."
+  - "run prompt-engineering workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

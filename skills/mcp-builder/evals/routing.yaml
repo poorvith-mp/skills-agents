@@ -1,0 +1,7 @@
+should_fire:
+  - "help with mcp builder"
+  - "design, build and test mcp servers exposing tools, resources and prompts, including why a tool never gets called."
+  - "run mcp-builder workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

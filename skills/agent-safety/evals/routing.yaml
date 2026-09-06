@@ -1,0 +1,7 @@
+should_fire:
+  - "help with agent safety"
+  - "defend against prompt injection, scope tool permissions, filter outputs, and fail closed when a check can't run."
+  - "run agent-safety workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

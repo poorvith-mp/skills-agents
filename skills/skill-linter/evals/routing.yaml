@@ -1,0 +1,7 @@
+should_fire:
+  - "help with skill linter"
+  - "check a skill against house rules"
+  - "run skill-linter workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

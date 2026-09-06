@@ -1,0 +1,7 @@
+should_fire:
+  - "help with agent identity"
+  - "design authentication, delegation and trust verification between agents, and resolve "who is this" consistently across sources."
+  - "run agent-identity workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with automation review"
+  - "audit a proposed or existing automation for value, risk and maintenance cost, including the answer "don't build this.""
+  - "run automation-review workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

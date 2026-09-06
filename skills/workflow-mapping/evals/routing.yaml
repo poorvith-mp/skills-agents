@@ -1,0 +1,7 @@
+should_fire:
+  - "help with workflow mapping"
+  - "map a complete workflow tree"
+  - "run workflow-mapping workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

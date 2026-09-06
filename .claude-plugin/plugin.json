@@ -1,0 +1,19 @@
+{
+  "name": "skills-writing",
+  "displayName": "Writing Skills",
+  "version": "3.0.0",
+  "description": "5 writing skills. Long-form and professional writing: books, technical docs, screenplays and copy.",
+  "author": {
+    "name": "Poorvith M P",
+    "url": "https://github.com/poorvith-mp"
+  },
+  "homepage": "https://github.com/poorvith-mp/skillary",
+  "repository": "https://github.com/poorvith-mp/skills-writing",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "documentation",
+    "copywriting",
+    "agent-skills"
+  ]
+}

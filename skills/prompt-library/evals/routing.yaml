@@ -1,0 +1,7 @@
+should_fire:
+  - "help with prompt library"
+  - "maintain reusable prompt libraries"
+  - "run prompt-library workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry
