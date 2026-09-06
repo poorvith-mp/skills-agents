@@ -1,19 +1,20 @@
 {
-  "name": "skills-writing",
-  "displayName": "Writing Skills",
-  "version": "3.0.0",
-  "description": "5 writing skills. Long-form and professional writing: books, technical docs, screenplays and copy.",
+  "name": "skills-agents",
+  "displayName": "Agents Skills",
+  "version": "4.0.0",
+  "description": "17 agents skills. Agent and automation infrastructure: multi-agent protocols, tool curation, evals and runtimes.",
   "author": {
     "name": "Poorvith M P",
     "url": "https://github.com/poorvith-mp"
   },
   "homepage": "https://github.com/poorvith-mp/skillary",
-  "repository": "https://github.com/poorvith-mp/skills-writing",
+  "repository": "https://github.com/poorvith-mp/skills-agents",
   "license": "MIT",
   "keywords": [
-    "writing",
-    "documentation",
-    "copywriting",
+    "agents",
+    "automation",
+    "evals",
+    "mcp",
     "agent-skills"
   ]
 }

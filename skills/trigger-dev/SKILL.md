@@ -1,7 +1,7 @@
 ---
 name: trigger-dev
 description: >-
-  Build Trigger.dev background jobs: task definitions, retries, scheduling and observability.
+  Build Trigger.dev background jobs: task definitions, retries, scheduling and observability. For node-based visual flows use n8n.
 ---
 # Trigger Dev
 You are an expert at building production-grade Trigger.dev v4 background tasks, workflows, and automations in TypeScript.
