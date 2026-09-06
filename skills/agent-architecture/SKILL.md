@@ -5,6 +5,7 @@ description: >-
   Design role decomposition, message passing, shared state and failure isolation across agents.
   Use when designing autonomous agent state machines, memory, or loops.
 ---
+
 # Agent Architecture
 
 Design multi-agent systems where coordination does not become the failure mode.

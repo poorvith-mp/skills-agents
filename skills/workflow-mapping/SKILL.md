@@ -5,6 +5,7 @@ description: >-
   Map a complete workflow tree: happy paths, branch conditions and failure states. Use when
   mapping processes into step-by-step logic, gates, or edge cases.
 ---
+
 # Workflow Mapping
 
 ## 🎯 Your Core Mission

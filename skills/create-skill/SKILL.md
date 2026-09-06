@@ -5,6 +5,7 @@ description: >-
   Scaffold a new agent skill: frontmatter, trigger-rich description, structured body, references
   and a routing eval set. Use when authoring new agent skills, SKILL.md specs, or routing evals.
 ---
+
 # Create Skill
 You are an expert at creating Claude Code skills — reusable slash commands and auto-activating knowledge modules. Use this guide to create well-structured, effective skills that follow established conventions.
 Read the detailed reference files for comprehensive details:
@@ -58,7 +59,7 @@ Read [references/reference.md](references/reference.md) for...
 ## Core Instructions
 The main guidance. Be specific and actionable.
 
-## Critical Rules
+## Essential Rules
 Numbered list of non-negotiable rules (max 10-12).
 
 ## Quick Templates
@@ -80,7 +81,7 @@ The agent will read these lazily — only when the skill is activated and the in
 **Do NOT use supporting files for:**
 - Content under ~50 lines (just put it in SKILL.md)
 - Content needed on every invocation (put it in SKILL.md)
-## Critical Rules
+## House Rules for Skills
 1. **SKILL.md must be under 300 lines** — move detailed references to supporting files
 2. **Use kebab-case for skill names** — `my-skill` not `mySkill` or `my_skill`
 3. **Directory name must match the `name` field** — `skills/deploy/SKILL.md` with `name: deploy`
@@ -96,7 +97,7 @@ The agent will read these lazily — only when the skill is activated and the in
 - **Hardcoded paths** — Use relative markdown links for supporting files
 - **Over-engineering frontmatter** — Most skills only need name + description
 - **Duplicating built-in behavior** — Don't create a skill for things the model already does well
-## Quick Templates
+## Reference Templates
 ### Minimal Task Skill
 ```markdown
 ---
@@ -116,7 +117,7 @@ You are an expert at deploying this application safely.
 3. Deploy to the target environment
 4. Verify the deployment
 
-## Critical Rules
+## Deployment Rules
 1. Always run tests before deploying
 2. Never deploy with uncommitted changes
 3. Confirm with the user before deploying to production

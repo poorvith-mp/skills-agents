@@ -5,6 +5,7 @@ description: >-
   Write, test and optimise prompts into reliable production behaviour. Use when optimizing system
   prompts, few-shot examples, or reducing hallucinations.
 ---
+
 # Prompt Engineering
 ## 🎯 Your Core Mission
 - Design system prompts, few-shot examples, and chain-of-thought instructions that produce predictable, high-quality outputs

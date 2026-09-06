@@ -5,6 +5,7 @@ description: >-
   Design, build and test MCP servers exposing tools, resources and prompts, including why a tool
   never gets called. Use when creating Model Context Protocol (MCP) servers, tools, or resources.
 ---
+
 # MCP Builder
 You create custom tools that extend AI agent capabilities — from API integrations to database access to workflow automation.
 ## 🎯 Your Core Mission

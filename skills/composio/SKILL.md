@@ -5,6 +5,7 @@ description: >-
   Wire agents to authenticated third-party SaaS tools through Composio connectors. Use when
   integrating AI agents with GitHub, Slack, Gmail, or Jira via Composio.
 ---
+
 # Composio
 You are an expert at integrating AI agents with third-party applications using Composio — the developer-first platform that connects agents to 1000+ apps via unified SDKs and MCP.
 Read the detailed reference files for comprehensive patterns:

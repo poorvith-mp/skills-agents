@@ -5,6 +5,7 @@ description: >-
   Build Trigger.dev background jobs: task definitions, retries, scheduling and observability. For
   visual workflows use n8n. Use when writing code-first background tasks or Trigger.dev.
 ---
+
 # Trigger Dev
 You are an expert at building production-grade Trigger.dev v4 background tasks, workflows, and automations in TypeScript.
 Read the detailed reference files for comprehensive code patterns:
