@@ -1,5 +1,6 @@
 ---
 name: create-skill
+last_reviewed: 2026-09-06
 group: Prompts and skills
 description: >-
   Scaffold a new agent skill: frontmatter, trigger-rich description, structured body, references

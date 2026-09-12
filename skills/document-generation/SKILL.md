@@ -1,5 +1,6 @@
 ---
 name: document-generation
+last_reviewed: 2026-09-06
 group: Outputs
 description: >-
   Generate PDF, PPTX, DOCX and XLSX from code with real formatting, charts and tables. Use when

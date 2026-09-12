@@ -1,5 +1,6 @@
 ---
 name: workflow-mapping
+last_reviewed: 2026-09-06
 group: Workflow automation
 description: >-
   Map a complete workflow tree: happy paths, branch conditions and failure states. Use when

@@ -1,5 +1,6 @@
 ---
 name: agent-orchestration
+last_reviewed: 2026-09-06
 group: Agent design
 description: >-
   Sequence agents through an end-to-end pipeline, passing state between them, with pre-flight

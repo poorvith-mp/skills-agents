@@ -1,5 +1,6 @@
 ---
 name: rag-systems
+last_reviewed: 2026-09-06
 group: Retrieval
 description: >-
   Build retrieval that works: chunking strategy, embeddings, hybrid search, reranking and

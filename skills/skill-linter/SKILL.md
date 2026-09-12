@@ -1,5 +1,6 @@
 ---
 name: skill-linter
+last_reviewed: 2026-09-06
 group: Prompts and skills
 description: >-
   Check a skill against house rules: description length, slug length, pointer scope and allowed

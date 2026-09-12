@@ -1,5 +1,6 @@
 ---
 name: trigger-dev
+last_reviewed: 2026-09-06
 group: Workflow automation
 description: >-
   Build Trigger.dev background jobs: task definitions, retries, scheduling and observability. For

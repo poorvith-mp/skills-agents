@@ -1,5 +1,6 @@
 ---
 name: agent-identity
+last_reviewed: 2026-09-06
 group: Agent design
 description: >-
   Design authentication, delegation, and trust verification across agents and identity sources.

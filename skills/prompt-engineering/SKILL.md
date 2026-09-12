@@ -1,5 +1,6 @@
 ---
 name: prompt-engineering
+last_reviewed: 2026-09-06
 group: Prompts and skills
 description: >-
   Write, test and optimise prompts into reliable production behaviour. Use when optimizing system

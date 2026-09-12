@@ -1,5 +1,6 @@
 ---
 name: agent-safety
+last_reviewed: 2026-09-06
 group: Agent design
 description: >-
   Defend against prompt injection, scope tool permissions, filter outputs, and fail closed when a
@@ -61,7 +62,7 @@ AI agents equipped with code execution and external API tools represent signific
 ## 2. Input Sanitation & Delimiter Policy
 - **Untrusted Input Tagging**: Enforce `<external_data>` XML enclosures.
 - **Pre-Execution Judge Model**: [Llama-Guard / Custom Fast Classifier]
-- **Jailbreak Detection Rules**: Check for system override phrases (`"Ignore previous instructions"`, `"Developer Mode"`).
+- **Jailbreak Detection Rules**: Check for system override phrases (instruction overrides, `"Developer Mode"`).
 
 ## 3. Tool Sandboxing & Permission Matrix
 | Tool Name | Sandboxing Environment | Network Policy | File System Mount |

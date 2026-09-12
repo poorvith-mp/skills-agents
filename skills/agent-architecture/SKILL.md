@@ -1,5 +1,6 @@
 ---
 name: agent-architecture
+last_reviewed: 2026-09-06
 group: Agent design
 description: >-
   Design role decomposition, message passing, shared state and failure isolation across agents.

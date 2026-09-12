@@ -1,5 +1,6 @@
 ---
 name: composio
+last_reviewed: 2026-09-06
 group: Tooling agents call
 description: >-
   Wire agents to authenticated third-party SaaS tools through Composio connectors. Use when

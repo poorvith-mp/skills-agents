@@ -1,5 +1,6 @@
 ---
 name: report-automation
+last_reviewed: 2026-09-06
 group: Outputs
 description: >-
   Merge multiple exports and unstructured sources into one consistent view, then schedule and

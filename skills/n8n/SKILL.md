@@ -1,5 +1,6 @@
 ---
 name: n8n
+last_reviewed: 2026-09-06
 group: Workflow automation
 description: >-
   Build n8n workflows: node wiring, credentials, error branches and scheduling. Use when building

@@ -1,5 +1,6 @@
 ---
 name: automation-review
+last_reviewed: 2026-09-06
 group: Workflow automation
 description: >-
   Audit a proposed or existing automation for value, risk and maintenance cost, including the

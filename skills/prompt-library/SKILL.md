@@ -1,5 +1,6 @@
 ---
 name: prompt-library
+last_reviewed: 2026-09-06
 group: Prompts and skills
 description: >-
   Maintain reusable prompt libraries: versioning, tagging, benchmarking and deduplication across

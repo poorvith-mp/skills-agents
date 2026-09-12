@@ -1,5 +1,6 @@
 ---
 name: mcp-builder
+last_reviewed: 2026-09-06
 group: Tooling agents call
 description: >-
   Design, build and test MCP servers exposing tools, resources and prompts, including why a tool
